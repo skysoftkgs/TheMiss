@@ -1,0 +1,80 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layout0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+   	<RelativeLayout
+   	    android:id="@+id/layout5"
+   	    android:layout_width="match_parent"
+   	    android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:id="@+id/layout9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <ListView
+                android:id="@+id/lv_post"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@android:color/white"
+              	/>
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layout_top_category"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:weightSum="3" >
+
+        <Button
+            android:id="@+id/btn_last_pictures1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/home_red_color"
+            android:text="@string/home_last_pictures"
+            android:textColor="@android:color/white"
+            android:textSize="12dp" />
+
+        <View
+            android:id="@+id/View03"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_miss_of_month1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/home_red_color"
+            android:text="@string/home_miss_of_the_month"
+            android:textColor="@android:color/white"
+            android:textSize="12dp" />
+
+        <View
+            android:id="@+id/View02"
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:background="@android:color/white" />
+
+        <Button
+            android:id="@+id/btn_winners1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/home_red_color"
+            android:text="@string/home_the_winners"
+            android:textColor="@android:color/white"
+            android:textSize="12dp" />
+    </LinearLayout>
+
+</RelativeLayout>

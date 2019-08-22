@@ -1,0 +1,27 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+    <dimen name="slidingmenu_offset">45dp</dimen>
+    <dimen name="list_padding">10dp</dimen>
+    <dimen name="shadow_width">15dp</dimen>
+
+    <integer name="num_cols">1</integer>
+    
+    <!-- Home -->
+    <dimen name="profile_image_thumbnail_width">35dp</dimen>
+    <dimen name="grid_vertical_spacing">2px</dimen>
+    <dimen name="miss_month_ranking_small_font">20dp</dimen>
+    <dimen name="miss_month_ranking_medium_font">32dp</dimen>
+    <dimen name="miss_month_ranking_large_font">48dp</dimen>
+    <dimen name="list_divider_height">12dp</dimen>
+    
+    <!-- Profile -->
+    <dimen name="user_profile_image_thumbnail_width">70dp</dimen>
+    
+    <!-- Settings -->
+    <dimen name="settings_cover_image_height">260dp</dimen>
+    <dimen name="settings_profile_picture_width">130dp</dimen>
+</resources>

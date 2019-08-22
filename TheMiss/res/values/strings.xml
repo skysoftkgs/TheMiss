@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">THE MISS</string>
+    <string name="action_settings">Settings</string>
+    <string name="facebook_app_id">1502622856621347</string>
+    <string name="select_photo">Select Photo</string>
+    <string name="confirm_deleting">Confirm Deleting</string>
+    <string name="are_you_sure_delete">Are you sure to delete this picture?</string>
+    <string name="date">d</string>
+    <string name="no_network_connection_toast">No network connection found</string>
+    
+    <!--  MENU  -->
+    <string name="menu_the_contest">THE CONTEST</string>
+    <string name="menu_prizes">Prizes</string>
+    <string name="menu_tutorial">Tutorial</string>
+    <string name="menu_photo_sampler">Photo sampler</string>
+    <string name="menu_rules_and_privacy">Rules and Privacy</string>
+    <string name="menu_privacy">Privacy</string>
+    <string name="menu_help">HELP</string>
+    <string name="menu_faq">Faq</string>
+    <string name="menu_contacts">Contacts</string>
+    <string name="menu_account">ACCOUNT</string>
+    <string name="menu_import_pictures">IMPORT PICTURES</string>
+    <string name="menu_invite_friends">INVITE FRIENDS</string>
+    <string name="menu_settings">SETTINGS</string>
+    <string name="menu_notifications">NOTIFICATIONS</string>
+    <string name="menu_logout">Logout</string>
+    
+    <!--  HOME  -->
+    <string name="home_heading_only_selfie">The only Social Contest that\n allow you to be famous</string>
+    <string name="home_heading_are_you_mail">ARE YOU BOY?</string>
+    <string name="home_heading_vote_your_miss">VOTE YOUR MISS</string>
+    <string name="home_last_pictures">LAST\nPICTURES</string>
+	<string name="home_miss_of_the_month">MISS OF\nTHE MONTH</string>
+	<string name="home_the_winners">THE\nWINNERS</string>
+	<string name="home_the_winners_text1">The Miss contest has just started.</string>
+	<string name="home_the_winners_text2">Would you like to be the\nfirst Miss?</string>
+	<string name="home_the_winners_text3">WIN THE IPHONE 5s!</string>
+	<string name="home_the_winners_text4">Invite your friends!</string>
+	<string name="if_you_male">If you are a male</string>
+	<string name="signup_and_vote">SIGNUP AND VOTE YOUR MISS</string>
+	<string name="vote">Vote</string>
+	<string name="share">Share</string>
+	<string name="report_inappropriate">Report Inappropriate</string>
+	<string name="cancel">Cancel</string>
+	<string name="miss">MISS</string>
+	<string name="home_invite">INVITE</string>
+	<string name="report_success_message">Thank you, this picture has been reported to the staff.</string>
+	<string name="share_facebook">Share on Facebook</string>
+	<string name="share_whatsapp">Share on Whatsapp</string>
+	<string name="share_to">Share to...</string>
+	<string name="shared_successfully">Shared successfully!</string>
+	<string name="sharing_cancelled">Sharing cancelled.</string>
+	<string name="share_message_first">Also</string>
+	<string name="share_message_middle">is on The Miss!\n </string>
+	<string name="share_message_end">Vote and help her to become Famous!\n Visit: www.themiss.tv and download the App</string>
+	
+	<!--  LOGIN  -->
+	<string name="login_title">Login</string>
+	<string name="login_login">LOGIN</string>
+	<string name="login_signup">SIGNUP</string>
+	<string name="mail_login">Mail Login</string>
+	<string name="login_forgot_password">Forgot Password</string>
+	<string name="email">Email</string>
+	<string name="password">Password</string>
+	<string name="login_with_facebook">Login with Facebook</string>
+	<string name="login_with_instagram">Login with Instagram</string>
+	<string name="become_famous">Do you want to become famous?\nSign up!</string>
+	
+	<!--  SIGNUP  -->
+	<string name="signup_title">Mail Signup</string>
+	<string name="signup_male">MALE</string>
+	<string name="signup_female">FEMALE</string>
+	<string name="signup_agree_message">By signing up, you agree to our</string>
+	<string name="signup_terms_and_conditions">terms and conditions</string>
+	<string name="username">User Name</string>
+	<string name="we_do_not_post_anything">We don\'t post anything to Facebook.</string>
+	
+	<!--  RESET PASSWORD  -->
+	<string name="password_reset_title">Password Reset</string>
+	<string name="password_reset">PASSWORD RESET</string>
+	<string name="problems_get_in_touch">Problems? Get in touch</string>
+	
+	<!-- IMPORT -->
+	<string name="import_title">Import</string>
+	<string name="facebook_album">Facebook Album</string>
+	<string name="connected_as">Connected As </string>
+	<string name="facebook_friends">Facebook Friends</string>
+	<string name="camera">Camera</string>
+	<string name="upload_photo">Upload photo</string>
+	<string name="take_picture">Take picture</string>
+	<string name="gallery">Gallery</string>
+	<string name="uploading">Uploading...</string>
+	<string name="image_uploaded_success">Image uploaded successfully!</string>
+	<string name="adjust">ADJUST</string>
+	
+	<!-- INVITE -->
+	<string name="invite_title">Invite</string>
+	<string name="invite_contacts">Contacts</string>
+	<string name="request_cancelled">Request cancelled.</string>
+	<string name="invite_whatsapp">Invite with Whatsapp</string>
+	<string name="invite_with">Invite with...</string>
+	<string name="invite_message">DOWNLOAD The Miss App or go to themiss.tv\n\n
+	    WOMAN: upload your pictures and become famous!\n
+	    MAN: invite your dream\'s girl and support your favorite</string>
+	
+	<!--  NOTIFICATION  -->
+	<string name="notification_title">Notifications</string>
+	<string name="has_voted_one">has voted one of your</string>
+	<string name="has_shared_one">has shared one of your</string>
+	<string name="has_commented_one">has commented one of your</string>
+	<string name="has_commented_own">has commented one of her own</string>
+	<string name="posted_new">have posted new</string>
+	<string name="photo">photo</string>
+	<string name="photo"></string>
+	
+	<!-- PROFILE -->
+	<string name="follow_me">FOLLOW ME</string>
+	<string name="following">FOLLOWING</string>
+	<string name="edit">EDIT</string>
+	<string name="position">POSITION</string>
+	<string name="votes">VOTES</string>
+	<string name="photos">PHOTOS</string>
+	<string name="followers">FOLLOWERS</string>
+	<string name="comment">Comment</string>
+	<string name="selfie">SELFIE</string>
+	<string name="voted">VOTED</string>
+	<string name="followed">FOLLOWED</string>
+	<string name="followed_successfully">Followed successfully.</string>
+	<string name="load_more">Load more...</string>
+	<string name="most_active_users">FAN RANKING</string>
+	<string name="top_positions">Ranking is determined by total sum of shares</string>
+	<string name="is_following_you"> is following you.</string>
+	
+	<!-- COMMENT -->
+	<string name="comment_title">Comments</string>
+	<string name="send">SEND</string>
+	<string name="comment_saved_successfully">Comment saved successfully.</string>
+	
+	<!-- PRIZES -->
+	<string name="related_articles">Related articles</string>
+	<string name="prizes">Prizes</string>
+	<string name="prizes_text">Each month in this section you will find the prizes.</string>
+	<string name="prizes_footer_text">If you already have the prize, you can select another one of equal value.</string>
+	
+	<!-- PHOTO SAMPLER -->
+	<string name="photo_sampler">Photo Sampler</string>
+	<string name="photo_sampler_content">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis dui tortor, eget vehicula sem sollicitudin non. Aenean tortor felis, pellentesque et ultricies eu, condimentum quis elit. MLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis dui tortor, eget vehicLorem ipsum dolor sit amet, consectetur adipiscing elit. Cras mattis dui tortor, eget vehicula sem sollicitudin non. Aenean tortor felis, pellentesque et ultricies eu, condimentum quis elit. Mula sem sollicitudin non. Aenean tortor felis, pellentesque et ultricies eu, condimentum quis elit. M</string>
+	
+	<!--  LOGOUT  -->
+	<string name="logout_question">Are you sure to\nlogout?</string>
+	<string name="logout_title">Logout</string>
+	<string name="yes">YES</string>
+	<string name="no">NO</string>
+	
+	<!--  DEACTIVATE  -->
+	<string name="deactivate">Deactivate</string>
+	<string name="deactivate_question">Are you sure to\ndeactivate?</string>
+	
+	<!--  SETTINGS  -->
+	<string name="settings_title">Settings</string>
+	<string name="cover">Cover</string>
+	<string name="profile_photo">Profile Photo</string>
+	<string name="change">Change</string>
+	<string name="first_name">First Name</string>
+	<string name="last_name">Last Name</string>
+	<string name="city">City</string>
+	<string name="mobile_number">Mobile Number</string>
+	<string name="description">Description</string>
+	<string name="new_password">New Password</string>
+	<string name="confirm_password">Confirm Password</string>
+	<string name="add_social_network">Add social network</string>
+	<string name="facebook">Facebook</string>
+	<string name="instagram">Instagram</string>
+	<string name="twitter">Twitter</string>
+	<string name="whatsapp">Whatsapp</string>
+	<string name="save">SAVE</string>
+	<string name="deactivate_account">Deactivate Account</string>
+	<string name="activate_account">Activate Account</string>
+	<string name="upload_pictures_with">Upload pictures with:</string>
+	<string name="user_information_saved">User information saved successfully.</string>
+	<string name="saving">Saving...</string>
+	
+	<!--  ADMIN SETTINGS  -->
+	<string name="admin">Admin</string>
+	<string name="flagged">flagged</string>
+	<string name="flagged_pictures">Flagged Pictures</string>
+	<string name="delete">Delete</string>
+	
+	<!--  Contacts  -->
+	<string name="contacts">Contacts</string>
+	<string name="name_surname">Name Surname</string>
+	<string name="Message">Message</string>
+	<string name="report_problem">Report a problem</string>
+	<string name="send_suggestion">Send a suggestion</string>
+	<string name="business_press">Business/Press</string>
+	
+	<!--  Tutorial  -->
+	<string name="tutorial_text">Get your inspiration from videos and photos of the Testimonial 2014 and... snap your PEFFECT SELFIE!!</string>
+	
+	<!--  FAQ  -->
+	<string name="faq_faq">FAQ</string>
+	<string name="faq_topic1">1) What is themiss.tv?</string>
+	<string name="faq_content1">The Miss is the social contest created in order to rebuild the fashion and show business, thanks to an innovative tool for the selection of participants.</string>
+	<string name="faq_topic2">2) Who can apply for The Miss?</string>
+	<string name="faq_content2">SHE: should you are aged between 16 and 35 years old, of any nationality and origin. No physical requirements related to size or height are requested or compromise the participation. 
+								\n\nHE: You can participate at The Miss by voting, sharing and commenting your favourite photos. In addition, you can invite all the girls you would like to see them participate in the contest.
+	</string>
+	<string name="faq_topic3">3) How can I upload the pictures?</string>
+	<string name="faq_content3">You can upload your pictures clicking on the button + in the menu in the high part of the screen and you can import them from your personal account on Facebook and Instagram or from your smartphone.</string>
+	<string name="faq_topic4">4) Which kind of pictures can I upload?</string>
+	<string name="faq_content4">You can be inspired by the Photo Sampler on the web site. You must give priority to Selfie, but you can also upload a picture of yourself taken by another person. 
+								\n\nIt is important that no professional photos will be uploaded. In order to guarantee more transparency to the platform, we ask you to take a picture with a paper containing your name and the writing “The Miss”. 
+								\n\nYou can upload as much photos as you want, there are no amount limits.
+	</string>
+	<string name="faq_topic5">5) What do I obtain if I participate to the contest?</string>
+	<string name="faq_content5">Posting your pictures frequently (4-5 times per day) and sharing them with your friends you will create your fame starting from nothing.
+	    						\n\nSpread the news as much as possible and increase the number of your Fans!
+	    						\n\nThanks to The Miss you will be able to create your photo book free of charge, because for the first time it’s up to you to choose how to look, how many times you want to appear and, above all, from your favourite place.</string>
+	<string name="faq_topic6">6) What do I win?</string>
+	<string name="faq_content6">You win the award of “Miss of the Month” and you win the prize issued. This will be sent directly to the place you have communicated before.
+	    						\n\nOnce the prize has been received, you must take a picture with it and upload the photo on The Miss, in order to make the process as visible and transparent as possible.
+	    						\n\nAt the end of the year you will have the right to be part of The Miss calendar as winner of the month.</string>
+	<string name="faq_topic7">7) If I do not like The Miss, can I remove my account?</string>
+	<string name="faq_content7">You can remove your account, at any time and free of charge, from the Settings menu.</string>
+	<!--  RULES  -->
+	<string name="terms_and_conditions">The Miss is the social contest created in order to rebuild the fashion and show business, thanks to an innovative tool for the selection of participants.                                                              
+		\n\nTHE SOCIAL CONTEST is COMPLETELY FREE OF CHARGE IN FULL, FROM THE PARTICIPATION TO THE POSSIBLE WIN OF WHATSOEVER AWARD.
+		\n\nNO PAYMENTS ARE NEEDED IN ORDER TO PARTICIPATE OR WIN THIS CONTEST.
+		\n\n1.1	The Miss is open to all female people, of any nationality, aged between 16 and 35 years old. No physical requirements related to size or height are requested for the participation. In order to apply for the contest, the applicants must have reached the age of 16 at the moment of the registration. 
+		\n\n1.2	In order to participate as Miss, should a minor applicant complete the registration, The Miss assumes the full acknowledgment and the authorization of these terms and conditions from one of her parents or her legal guardian. Once the registration has been completed through Facebook, Instagram or by e-mail, the applicant to the contest guarantees the truthfulness of her data and personal information, excluding The Miss from any and every responsibility. Should the registration be made in the name and on behalf of a minor, it will be considered valid by The Miss, considering it as an act made directly by a parent or the legal guardian.
+		\n\n1.3	Usernames diverging from the real name of the person are allowed, as long as they are not related to commercial purposes or they are not gross, slanderous and offensive. 
+		\n\nIt is strictly forbidden the use of temporary e-mail services as emailtemporanea.net, spaml.com, bigstring.com, dueprong.com, rppkm.com, dieciminutemail.com, spambox.us, maillinator.com, veryrealemail.com, mytrashmail.com, tempemail.net, tempinbox.com and similar, as they do not guarantee the duration of the mail account for at least thirty days. The subscription and the votes made through these services will be deemed null and cancelled.
+		\n\n1.4	In any case, in order to participate to the activities related to the platform, at the moment of the registration each User must declare to be aged at least 16, to provide information responding to the truth and to explicitly accept all the terms and conditions stated in this Regulation, together with the possible changes amended by The Miss at any time. Therefore, all the Users of the websites are invited to periodically read this Regulation and to acknowledge any possible changes. This specification applies also to Male Users, who play an active role on themiss.tv in the regular use of the platform. “Male User” shall mean the male person who votes the Miss applicants and the photos he likes, shares them on the social networks and comments the pictures. Instead the maximum age only applies to the applicants to the contest.
+		\n\n1.5	Considering the minimum age established to get access to the website, the User who breaches this minimum age excludes The Miss from any and every responsibility. This responsibility, indeed, should be understood as referred to the User that, at the moment of the registration, has provided reticent and untruthful information and/or data, therefore not in a verifiable manner by the Miss.
+		\n\n1.6	In order to be able to get involved in the activities of the platform provided by the Miss, the User must enter the website www.themiss.tv, or download the app and enter through his/her own account on Facebook or on Instagram or through the registration form to be filled and sent by e-mail. Therefore the User, logging into one of these two social networks (Facebook and Instagram) or by e-mail, shall be able to vote, share, comment and invite. 
+		\n\n1.7	The Users registered with the platform can decide to eliminate their own account at any time using the key button “DISATTIVA ACCOUNT/REMOVE ACCOUNT” available in the website. Should the User decide to register again with The Miss, he/she must create a new account.
+		\n\n1.8	Each User registered by e-mail is the only responsible for the control of his/her own password and for his/her own account. Should the User get informed of a misuse of his/her login credentials, from third parties, he/she must promptly change the password and report the fact to The Miss Staff.
+		\n\n1.9	Once the login or the registration have been completed, the applicants to the contest shall be able to upload their own photos through Facebook and/or Instagram. Furthermore the pictures can be uploaded directly from their own computers, from the gallery of a smartphone or just taken. From that moment on the applicants will be able to start promoting themselves and their beauty, also inspired by the Tutorial uploaded in a dedicated section of the website. The pictures uploaded on The Miss website can be seen from all Users on the web. 
+		\n\n1.10	Pictures uploaded on the website must be taken by the applicant herself or by other third parties. In any case, professional photos are not allowed. Only selfies are considered valid. The applicant, for each picture, can follow the Photo Sampler guidelines uploaded in the dedicated section on the website. No amount limits are specified, as each applicant shall be able to upload as much photos as she wants.
+		\n\n1.11	Each picture does not need to refer to a specific place. The applicants, indeed, can take their own pictures wherever they prefer. 
+		\n\n1.12	An indispensable element, instead, is related to the fact that each picture must be taken in order to exalt the girl’s beauty, together with her female typical path. 
+		\n\n1.13	For the purpose of safeguarding the truthfulness and the full transparency of the platform and of its activities, each applicant is required to show a paper, including her name and “The Miss”, at least in one of her photos. This way intends to assure the fair under way of the activities and to prevent any false accounts not responding to a  natural female person.
+		\n\n1.14	Therefore the purpose of The Miss is to give the applicants the opportunity to be admired for their natural beauty and to facilitate the entrance of new faces in the fashion and show business, considering only the activities and the girl’s skills. 
+		\n\nThe applicants, indeed, will be evaluated only through the democratic system of the web votes. 
+		\n\nThe girls will be voted by the Users through the key button “Vota/Vote” placed on each photo published. Each photo uploaded by the applicant can be voted only once by the single User, considered as a single natural person. 
+		\n\nThe winner of the award “Miss of the Month” will be the girl that will obtain the highest number of votes in the current month. “The highest number of votes” shall mean all the votes expressed by each User on every photo uploaded by the applicant. Therefore the winner is the applicant, not the single photo.
+		\n\n1.15	"Month" shall mean the period between the first and the last day of that month. However, for the purposes of the contest, it is not forbidden for the applicant, in order to compete to the award, to start uploading her pictures on any day of the month (at the beginning, half month, at the end of the month). The inspiring principle allowing this chance is meritocracy, an essential element promoted by The Miss.
+		\n\n1.16	The applicant who will obtain the highest number of votes at the end of the month will win the award "Miss of the Month". The winner of this award will be entitled to receive the prize issued for that month.
+		\n\n1.17	Each picture uploaded by the applicant can be voted, commented and shared on any platform. The more the photos are shared by the Users, the more opportunities the applicants have to become visible, to obtain the highest number of votes and to create their look on their own.
+		\n\n1.18	Whatsoever the action may be (vote, comment or sharing) any comments  injuring whoever is using the web site are not allowed. It is strictly forbidden to write obscene, slanderous, controversial, gross, outrageous and disrespectful comments, causing harm to the Users or to other third parties. In any case, it is strictly forbidden to publish pornographic material or any other contents aimed at offending the human dignity and exceeding the limits of decency and ethics.  
+		\n\nIn order to protect the contents and the people involved in The Miss, should a picture fail to meet the requirements established by The Miss, the Staff will remove it using the key button “SEGNALA/FLAG IT”, available to all the Users. Once removed, the photo in question will not be visible anymore. In any case, it is strictly forbidden to introduce any contents not related to the purpose of the website www.themiss.tv, that is contents better known as SPAM. This will lead to the exclusion, without notice, from the platform.
+		\n\n1.19	 It is forbidden to introduce, in any manner and by any means, contents encouraging terrorist activities and/or behaviours likely to produce or to be considered as criminal actions. 
+		\n\nBehaviours liable to incite racial hatred and/or any kind of discrimination are forbidden. The Miss Staff will remove these behaviours, as strictly forbidden by this Regulation.
+		\n\n1.20	It is strictly forbidden to introduce contents or materials liable to infringe intellectual property rights.
+		\n\n1.21	Last but not least, the Users of the platforms are not allowed to introduce and/or to replay other parties’ pictures and/or videos without the consent of the owner/the person concerned. Whoever infringes these rules will be automatically removed from the platform without notice and with no obligation for The Miss Staff to justify it. The exclusion of an User from the website and from its regular activities will lead to the permanent elimination of his/her account and it will not be possible anymore to restore it. 
+ 		\n\n1.22	The introduction of false pictures, videos and data, together with the use of others’ image, is strictly forbidden by the law. Should these behaviours are identified, The Miss will denounce the fact to the appropriate authorities.
+		\n\n1.23	 The Miss specifies that in the website www.themiss.tv it is forbidden to save the pictures in the own computer, in order to better protect the contents and the copyrights belonging to the legitimate holders. In the end, The Miss does not accept any liability for any alternative tools and means allowing to save the pictures, as they are not directly manageable.
+		\n\n1.24	However, The Miss has the right to use information and pictures uploaded on the platform, beyond space and time constraints, only for commercial and advertising purposes. In any case, the right to use them shall be exercised by The Miss exclusively for initiatives directly related to the website activities. 
+		\n\n1.25	Should the applicants and, in general, the Users accept this Regulation, they license The Miss to use, publish and/or move, at its own discretion and free of charge, the pictures uploaded in the platform to third parties and by any means. In particular, concerning the pictures, The Miss shall be able to manage their publication and their video-promotion, their dissemination through websites, the multimedia presentations, the publication on the Internet of the annual calendar and all the initiatives directly related to the contest. Finally remember that The Miss Staff does not accept any liability for any possible abuse of pictures uploaded in the website. 
+		\n\n1.26	In order to guarantee the fair underway of the contest, any possible irregularity identified by the Management of The Miss, concerning the truthfulness of the applicant and her pictures, will lead to the check of the votes obtained. Therefore all the Users of the platform are invited to avoid artifices and/or tricks in order to win the award, otherwise they will be automatically removed from the website. Each vote, indeed, must refer to a single person as a real natural person. 
+		\n\n1.27	The contest, to which the website themiss.tv is inspired, was created in order to expressly highlight each applicant’s skills. Therefore the award, given to the Miss who has obtained the highest number of votes during the month, represents and certifies the reward for her own value. 
+		\n\n1.28	The prize shall be sent to any destination told in private by the winner to The Miss Staff. Once the prize has been received, the Miss is expressly required to take a picture with this prize, in order to certify the truthfulness and the fair working of the platform.
+		\n\n1.29	In order to obtain the prize, the winner must provide The Miss all pertinent data to send it, otherwise it will not be possible to receive it.
+		\n\nThe registration and the participation to The Miss is conditional on the acceptance of this Regulation in full.
+		    
+	</string>
+	
+	<!-- FB photo picker -->
+    <string name="activity_title">Facebook Albums</string>
+    <string name="photos">Photos</string>
+    <string name="photo">Photo</string>
+    <string name="back">Back</string>
+</resources>

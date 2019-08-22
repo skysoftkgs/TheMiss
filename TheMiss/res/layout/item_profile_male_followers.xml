@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/layout_profile_male_follower_item"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <com.ghebb.themiss.custom.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_profile_male_followers_photo"
+            android:layout_width="@dimen/profile_image_thumbnail_width"
+            android:layout_height="@dimen/profile_image_thumbnail_width"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_female_64"
+            app:corner_radius="18dp" />
+
+        <TextView
+            android:id="@+id/tv_profile_male_followers_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:layout_toRightOf="@+id/iv_profile_male_followers_photo"
+            android:text="username"
+            android:textColor="@color/home_red_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_profile_male_followers_votes_count"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="129"
+            android:textColor="@color/home_red_color"
+            android:textSize="14dp"
+            android:visibility="gone" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tv_profile_male_followers_votes_count"
+            android:src="@drawable/ic_profile_vote"
+            android:visibility="gone" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="60dp"
+            android:layout_alignParentBottom="true"
+            android:background="#626262" />
+
+    </RelativeLayout>
+
+</LinearLayout>

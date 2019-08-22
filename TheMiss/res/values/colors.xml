@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="home_red_color">#F05360</color>
+    <color name="home_blue_color">#225998</color>
+  	<color name="main_bgcolor">#F9F9F9</color>
+  	<color name="white">#FFFFFF</color>
+  	<color name="black">#000000</color>
+  	<color name="home_gray_text">#808080</color>
+  	<color name="btn_selected_bg">#d8deea</color>
+  	<color name="btn_alpha_selected_bg">#30000000</color>
+  	
+  	<!-- FB photo picker color -->
+  	<color name="bg_color_transparent">#AA000000</color>
+    <color name="bg_overlay">#99000000</color>
+    <color name="bg_chat">#F0F7FF</color>
+    <color name="bg_main">@color/white</color>
+    <color name="bg_profile">@color/brown_light</color>
+
+    <!-- Black -->
+    <color name="black_transparent">#44000000</color>
+
+    <!-- Browns -->
+    <color name="brown_light">#FBEDDE</color>
+    <color name="brown_dark">#FF44130C</color>
+    <color name="brown">#FFC18E80</color>
+    <!-- /Browns -->
+
+
+    <!-- Blue -->
+    <color name="blue_link">#FF3366BB</color>
+
+    <!-- /Blue -->
+
+	
+</resources>

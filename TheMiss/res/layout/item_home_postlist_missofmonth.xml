@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/lib/com.google.ads"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <com.ghebb.themiss.custom.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_home_postlist_photo"
+            android:layout_width="@dimen/profile_image_thumbnail_width"
+            android:layout_height="@dimen/profile_image_thumbnail_width"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_female_64"
+            app:corner_radius="18dp" />
+
+        <TextView
+            android:id="@+id/tv_home_postlist_total_action"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:text="0"
+            android:textColor="@color/home_red_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_home_postlist_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/tv_home_postlist_ranking"
+            android:layout_toRightOf="@+id/iv_home_postlist_photo"
+            android:singleLine="true"
+            android:textColor="@color/home_red_color"
+            android:textSize="16dp" />
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/tv_home_postlist_total_action"
+            android:src="@drawable/home_unvote_btn" />
+
+        <TextView
+            android:id="@+id/tv_home_postlist_ranking"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/imageView1"
+            android:background="@color/home_red_color"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:text="2"
+            android:textColor="@android:color/white"
+            android:textSize="12dp"
+            android:textStyle="bold" />
+
+    </RelativeLayout>
+
+   <RelativeLayout
+        android:id="@+id/layout11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/iv_content"
+            android:layout_width="match_parent"
+            android:layout_height="320dp" />
+
+        <ProgressBar
+	        android:id="@+id/progress"
+	        android:layout_width="match_parent"
+	        android:layout_height="10dp"
+	        android:indeterminate="false"
+	        android:max="100"
+	        android:visibility="invisible"
+	        style="@style/ProgressBarStyle" />
+        
+        <ImageButton
+            android:id="@+id/ib_home_photo_action"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_alignBottom="@id/iv_content"
+            android:layout_alignRight="@id/iv_content"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@android:color/transparent"
+            android:scaleType="fitCenter"
+            android:src="@drawable/three_dot" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/ib_home_vote"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/vote_button_selector" />
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ib_home_vote"
+                android:text="@string/vote"
+                android:textColor="@color/home_red_color"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_home_postlist_votecount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textView2"
+                android:layout_alignParentTop="true"
+                android:text="0"
+                android:textColor="@color/home_red_color"
+                android:textSize="24dp" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" >
+
+            <ImageButton
+                android:id="@+id/ib_home_share"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="20dp"
+                android:background="@android:color/transparent"
+                android:scaleType="fitCenter"
+                android:src="@drawable/home_share_btn" />
+
+            <TextView
+                android:id="@+id/TextView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_toRightOf="@+id/ib_home_share"
+                android:text="@string/share"
+                android:textColor="@color/home_blue_color"
+                android:textSize="12dp" />
+
+            <TextView
+                android:id="@+id/tv_home_postlist_sharecount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/TextView01"
+                android:layout_alignParentTop="true"
+                android:text="0"
+                android:textColor="@color/home_blue_color"
+                android:textSize="24dp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+	
+	<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <com.google.ads.AdView
+            android:id="@+id/adView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            ads:adSize="BANNER"
+            ads:adUnitId="ca-app-pub-2639229483569920/2062303293"
+            ads:loadAdsOnCreate="true" />
+            
+       <!-- <com.adsdk.sdk.banner.AdView
+	        android:id="@+id/mobFoxView"
+			android:layout_width="match_parent"
+			android:layout_height="wrap_content"
+			android:background="#000000"
+			android:layout_centerHorizontal="true"
+			request_url="http://my.mobfox.com/request.php"
+			location="true"
+			animation="true"
+			publisherId="06fc1aac6a34e22f0da9f36f28d6c08d"
+			
+			adspaceStrict="true" 
+			adspaceHeight="wrap_content"
+			adspaceWidth="match_parent"
+			/> -->
+    </RelativeLayout>
+</LinearLayout>

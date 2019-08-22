@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/content_frame"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layout_menubar"
+        android:background="@android:color/white" />
+
+    <RelativeLayout
+        android:id="@+id/layout_menubar"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:background="@android:color/white" >
+         
+        <ImageButton
+            android:id="@+id/ib_menu_nav"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:background="@drawable/btn_alpha_bg_selector"
+            android:padding="12dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_line" />
+
+        <ImageButton
+            android:id="@+id/ib_menu_refresh"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/btn_alpha_bg_selector"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_refresh" />
+
+        <Button
+            android:id="@+id/btn_menu_login"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="5dp"
+            android:layout_toLeftOf="@+id/ib_menu_refresh"
+            android:background="@drawable/black_border_btn_bg"
+            android:text="@string/login_login"
+            android:textSize="18dp"
+            android:visibility="visible" />
+
+        <ImageView
+            android:id="@+id/iv_menu_themiss"
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/ib_menu_nav"
+            android:src="@drawable/themiss" />
+
+        <ImageButton
+            android:id="@+id/ib_menu_message"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/ib_menu_refresh"
+            android:background="@drawable/btn_alpha_bg_selector"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_message" />
+
+        <ImageButton
+            android:id="@+id/ib_menu_plus"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dp"
+            android:layout_toLeftOf="@+id/ib_menu_message"
+            android:background="@drawable/btn_alpha_bg_selector"
+            android:padding="3dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/ic_menu_plus" />
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_alignParentBottom="true"
+            android:background="#BBBBBB" />
+
+        <ProgressBar
+            android:id="@+id/progressbar_refresh"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_alignLeft="@+id/ib_menu_refresh"
+            android:layout_alignTop="@+id/ib_menu_refresh"
+            android:indeterminateOnly="true"
+            android:keepScreenOn="true"
+            android:visibility="invisible" />
+
+        <Button
+            android:id="@+id/btn_menu_back"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="3dp"
+            android:layout_toLeftOf="@+id/btn_menu_login"
+            android:background="@drawable/btn_alpha_bg_selector"
+            android:drawableLeft="@drawable/left_arrow"
+            android:drawablePadding="10dp"
+            android:gravity="center_vertical|center_horizontal|left"
+            android:paddingLeft="10dp"
+            android:paddingRight="5dp"
+            android:singleLine="true"
+            android:textColor="#3D3D3D"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_menu_notification_count"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/ib_menu_message"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="32dp"
+            android:layout_marginTop="3dp"
+            android:text="2"
+            android:textColor="@color/home_red_color"
+            android:textSize="12dp"
+            android:visibility="invisible" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

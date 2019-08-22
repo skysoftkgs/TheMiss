@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="70dp" >
+
+        <com.ghebb.themiss.custom.RoundedImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/iv_notification_item_profile"
+            android:layout_width="@dimen/profile_image_thumbnail_width"
+            android:layout_height="@dimen/profile_image_thumbnail_width"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/user_female_64"
+            app:corner_radius="18dp" />
+
+        <TextView
+            android:id="@+id/tv_notification_item_username"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@+id/iv_notification_item_profile"
+            android:text="username"
+            android:textSize="18dp" />
+
+        <TextView
+            android:id="@+id/tv_notification_has_voted"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_notification_item_username"
+            android:layout_centerVertical="true"
+            android:text="@string/has_voted_one"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_notification_photo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="5dp"
+            android:layout_toRightOf="@+id/tv_notification_has_voted"
+            android:text="@string/photo"
+            android:textColor="@color/home_red_color"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/tv_notification_item_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/tv_notification_has_voted"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="7dp"
+            android:text="5min"
+            android:textColor="#0e7572"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</LinearLayout>
